@@ -99,6 +99,7 @@ celerybeat-schedule
 # Environments
 .env
 .venv/*
+!.venv/.gitkeep
 env/
 venv/
 ENV/
