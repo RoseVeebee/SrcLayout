@@ -2,7 +2,7 @@
 Requirements:
 * Python
 * pip
-    * Pipenv
+* Pipenv
 
 Usage:
 1. Activate pipenv shell
@@ -21,4 +21,4 @@ Structure:
 What is set up:
 * Pipfile with -e dev pkg + --dev pytest pkg.
     > Run `pipenv update` after Git pulls to ensure stable venv state.
-* Extremely basic setup.py. Recent sources indicate setup.py is outdate: research Poetry (+ Pipenv?) soon.
+* Extremely basic setup.py. Recent sources indicate setup.py is outdated: research Poetry (+ Pipenv?) soon.
