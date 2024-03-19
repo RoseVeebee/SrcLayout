@@ -1,15 +1,18 @@
+# NO LONGER USED
+Used this repo briefly to study Pipenv. Switched to Poetry quickly after: this repo is not longer relevant for me.
+
 # SrcLayout
 Requirements:
 * Python
 * pip
 * Pipenv
 
-Usage:
+# Usage of Project
 1. Activate pipenv shell
 2. `pipenv update`
 3. Run `./main.py` > calls function in mypkg
 
-Structure:
+# Structure of Project
 * src layout = pkg(s) to dev in `./src/`
 * .venv using Pipenv
 * .gitignore: Official Github template for Python.
@@ -18,7 +21,7 @@ Structure:
 * ^ `./dist/` holds `mypkg(...).whl`. Can be installed to show how src layout forces dev to use installed version of pkg: changing code in `./src/mypkg/` won't impact installed mypkg version.
 + setup.py for mypkg
 
-What is set up:
+## What is set up:
 * Pipfile with -e dev pkg + --dev pytest pkg.
     > Run `pipenv update` after Git pulls to ensure stable venv state.
 * Extremely basic setup.py. Recent sources indicate setup.py is outdated: research Poetry (+ Pipenv?) soon.
